@@ -6,6 +6,17 @@ abstract class vehicle{
 	abstract void start();
 }
 
+class car extends vehicle{
+	car()
+	{
+		tyres=3;
+	}
+
+	void start(){
+		System.out.println("car started:");
+	}
+}
+
 public class vehiclewithabstract{
 	public static void main(String args[])
 	{

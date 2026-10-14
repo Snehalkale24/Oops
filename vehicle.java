@@ -31,6 +31,6 @@ public class vehicle{
 
     scooter s=new scooter();
     s.displayTyres();
-    s.start();;
+    s.start();
 	}
 }

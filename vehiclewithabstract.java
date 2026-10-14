@@ -17,7 +17,7 @@ class car extends vehicle{
 	}
 }
 
-class scooter entends vehicle{
+class scooter extends vehicle{
 	scooter(){
 		tyres=2;
 	}
